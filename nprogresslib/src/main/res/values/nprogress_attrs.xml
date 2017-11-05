@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NProgressLib">
+        <attr name="progress" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="circle_progress_color" format="color"/>
+        <attr name="circle_base_color" format="color"/>
+        <attr name="block_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_padding" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="progressValueVisibility" format="boolean"/>
+        <attr name="progressCapRound" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/laySub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteBase"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <TextView
+        android:id="@+id/tLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/blackBase"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Validation"
+        android:textColor="#aaaaaa"
+        android:textSize="14dp"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <napodev.nprogresslib.NProgressLib
+            android:id="@+id/pg1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            custom:block_color="#f429a3"
+            custom:circle_base_color="#f7bfcc"
+            custom:circle_progress_color="#f42955"
+            custom:max="100"
+            custom:progress="70"
+            custom:stroke_width="20dp"
+            custom:text="STEP-1"
+            custom:text_color="#000"
+            custom:text_size="12dp"
+            custom:progressCapRound="false"
+            custom:progressValueVisibility="true"/>
+
+    </LinearLayout>
+</LinearLayout>

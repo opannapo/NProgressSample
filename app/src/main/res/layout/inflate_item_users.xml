@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/laySub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteBase"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <TextView
+        android:id="@+id/tLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/blackBase"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Reviews"
+        android:textColor="#aaaaaa"
+        android:textSize="12dp"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <napodev.nprogresslib.NProgressLib
+            android:id="@+id/pg1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            custom:block_color="#f429a3"
+            custom:circle_base_color="#e4fcd2"
+            custom:circle_progress_color="#7ef429"
+            custom:max="100"
+            custom:progress="70"
+            custom:stroke_width="10dp"
+            custom:text="GOOD"
+            custom:text_color="#000"
+            custom:text_size="12dp"
+            custom:progressCapRound="false"
+            custom:progressValueVisibility="true"/>
+
+        <napodev.nprogresslib.NProgressLib
+            android:id="@+id/pg2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            custom:block_color="#f429a3"
+            custom:circle_base_color="#d0f9fa"
+            custom:circle_progress_color="#08dbe2"
+            custom:max="100"
+            custom:progress="70"
+            custom:stroke_width="10dp"
+            custom:text="COOL"
+            custom:text_color="#000"
+            custom:text_size="12dp"
+            custom:progressCapRound="false"
+            custom:progressValueVisibility="true"/>
+
+        <napodev.nprogresslib.NProgressLib
+            android:id="@+id/pg3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            custom:block_color="#f429a3"
+            custom:circle_base_color="#fadee4"
+            custom:circle_progress_color="#f42955"
+            custom:max="100"
+            custom:progress="70"
+            custom:stroke_width="10dp"
+            custom:text="BAD"
+            custom:text_color="#000"
+            custom:text_size="12dp"
+            custom:progressCapRound="true"
+            custom:progressValueVisibility="true"/>
+
+    </LinearLayout>
+</LinearLayout>
