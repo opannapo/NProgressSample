@@ -18,8 +18,7 @@
   
 # How to use
 
-### 1. Gradle
-Compile Bework on your project
+### 1. Gradle 
 >Gradle (Top-level).
 
 ```gradle
@@ -95,4 +94,4 @@ public class MainActivity extends AppCompatActivity {
 ``` 
 
 ### 4. Output
-Youtube : 
+Youtube : https://youtu.be/NgM9-3_7ElM
