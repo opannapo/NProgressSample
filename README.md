@@ -95,3 +95,5 @@ public class MainActivity extends AppCompatActivity {
 
 ### 4. Output
 Youtube : https://youtu.be/NgM9-3_7ElM
+
+![Alt text](https://github.com/opannapo/OutputPreviewAssets/blob/master/NProgress/out.gif "Output")
